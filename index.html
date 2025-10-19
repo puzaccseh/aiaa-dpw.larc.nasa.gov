@@ -3,54 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Proof of Ownership • [your-domain]</title>
-  <style>
-    :root{--bg:#f5f7fb;--card:#ffffff;--muted:#6b7280}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;
-         margin:0;background:var(--bg);color:#0f172a;display:flex;align-items:center;
-         justify-content:center;height:100vh;padding:20px}
-    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(15,23,42,0.08);
-          padding:28px;max-width:720px;width:100%}
-    h1{margin:0 0 8px;font-size:20px}
-    p{margin:0 0 12px;color:var(--muted)}
-    .token{display:inline-block;padding:10px 14px;border-radius:8px;
-           background:#f3f4f6;border:1px dashed #e6e9ef;font-family:monospace}
-    .meta{margin-top:16px;color:var(--muted);font-size:13px}
-    footer{margin-top:18px;font-size:13px;color:var(--muted)}
-    .small{font-size:13px;color:var(--muted)}
-  </style>
-</head>
-<body>
-  <main class="card" role="main" aria-labelledby="title">
-    <h1 id="title">Proof of Ownership</h1>
-    <p class="small">This page demonstrates control of the hostname: <strong id="hostname">[replace-with-hostname]</strong></p>
+  <title>Proof of Ownership • https://zabedullahpoyel.github.io/</title>
+  <h1>Subdomain Takeover by Zabed Ullah Poyel</h1>
 
-    <div>
-      <p class="small">Verification token:</p>
-      <div class="token" id="token">REPLACE_ME_WITH_YOUR_TOKEN_2025_ab12</div>
-    </div>
-
-    <p class="meta">
-      How to verify:
-      <ol>
-        <li>Confirm the hostname in your browser address bar or via DNS.</li>
-        <li>Verify the token text above matches the token provided to the owner or verifier.</li>
-      </ol>
-    </p>
-
-    <footer>
-      <div class="small">Only use this page on hostnames you own or are authorized to test.</div>
-    </footer>
-  </main>
-
-  <script>
-    // Optional: automatically replace placeholders with hostname
-    (function(){
-      try {
-        const host = location.host || '[unknown-host]';
-        document.getElementById('hostname').textContent = host;
-      } catch(e){}
-    })();
-  </script>
 </body>
 </html>
